@@ -1,0 +1,14 @@
+# darklighter-user 10 DLTR2004231OS00MQ0 V11.0.4.0.JOYUI release-keys
+- manufacturer: blackshark
+- platform: msmnile
+- codename: darklighter
+- flavor: darklighter-user
+- release: 10
+- id: DLTR2004231OS00MQ0
+- incremental: V11.0.4.0.JOYUI
+- tags: release-keys
+- fingerprint: blackshark/DLT-H0/darklighter:10/DLTR2004231OS00MQ0/V11.0.4.0.JOYUI:user/release-keys
+- is_ab: true
+- brand: blackshark
+- branch: darklighter-user-10-DLTR2004231OS00MQ0-V11.0.4.0.JOYUI-release-keys
+- repo: blackshark_darklighter_dump

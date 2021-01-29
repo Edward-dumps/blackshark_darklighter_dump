@@ -1,0 +1,10 @@
+service watermar /system/bin/watermark
+    class main
+    user graphics
+    group graphics
+
+on property:persist.sys.watermark=0
+    stop watermar
+
+on property:persist.sys.watermark=1
+    start watermar

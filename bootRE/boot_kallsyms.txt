@@ -1,0 +1,13 @@
+[+] Version string: Linux version 4.14.117-perf+ (buildfarm@bf-09) (clang version 8.0.11 for Android NDK) #2 SMP PREEMPT Thu Apr 23 18:21:35 CST 2020
+[+] Guessed architecture: aarch64 successfully in 17.93 seconds
+[+] Found kallsyms_token_table at file offset 0x017b5214
+[+] Found kallsyms_token_index at file offset 0x017b5614
+[+] Found kallsyms_markers at file offset 0x017b4210
+Traceback (most recent call last):
+  File "/home/u0_a184/dumps/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 1112, in <module>
+    kallsyms = KallsymsFinder(obtain_raw_kernel_from_file(kernel_bin.read()), args.bit_size)
+  File "/home/u0_a184/dumps/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 209, in __init__
+    self.find_kallsyms_names()
+  File "/home/u0_a184/dumps/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 771, in find_kallsyms_names
+    assert position > 0
+AssertionError
